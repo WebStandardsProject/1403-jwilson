@@ -29,10 +29,21 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 2%;
+	color: white;
+	font-size: 1em;
+	background: top url("../images/bg1.jpg") repeat;
+	border-radius: 3px;
 }
 ol, ul {
 	list-style: none;
 }
+
+#wrapper{
+	background-color: black;
+	border-radius: 3px;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -41,20 +52,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-Body{
-	background-color: black;
-	color: white;
-	font-size: 1em;
-}
 
 h1{
 	background-color: darkred;
+	margin: 1%;
 	font-size: 3em;
 	border-radius: 3px;
 	text-align: center;
@@ -64,4 +65,14 @@ h2{
 	background-color: darkred;
 	font-size: 2em;
 	border-radius: 3px;
+	margin: 1%;
+}
+
+a{
+	margin: 1%;
+	padding: 1%;
+}
+
+h3{
+	margin: 1%;
 }
