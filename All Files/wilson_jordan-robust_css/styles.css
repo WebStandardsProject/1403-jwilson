@@ -1,0 +1,18 @@
+#container {
+  /* Here we define our variables */
+  /* Variables are applied */
+  font-size: 12px;
+  padding: 10px;
+  color: #c0392b; }
+
+nav {
+  width: 900px; }
+  nav li {
+    float: left;
+    width: 170px;
+    background-color: #e5a0e9; }
+
+p {
+  border-color: blue;
+  border-width: lin;
+  border-style: dashed; }

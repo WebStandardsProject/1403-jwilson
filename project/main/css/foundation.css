@@ -6258,3 +6258,16 @@ th.hide-for-touch {
   	margin-top: 25%;
   	clear: both;
   }
+  
+  .alert-box{
+  	text-align: center;
+  }
+  
+  #welbut{
+  	margin-left: 41%;
+  }
+  
+  .alert.button.expand{
+  	height: 37px;
+  }
+  

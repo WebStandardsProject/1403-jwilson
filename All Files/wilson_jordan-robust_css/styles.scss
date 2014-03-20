@@ -1,0 +1,38 @@
+#container {
+
+        /* Here we define our variables */
+        $basetextsize: 12px;
+        $container-space: 10px;
+        $red: #C0392B;
+
+        /* Variables are applied */
+        font-size: $basetextsize;
+        padding: $container-space;
+        color : $red;
+}
+
+
+nav 
+{
+        $nav-width: 900px;
+        $nav-links: 5;
+        $nav-color: #ce4dd6;
+        width: $nav-width;
+        li 
+        {
+                float: left;
+                width: $nav-width/$nav-links - 10px;
+                background-color:
+                lighten($nav-color, 20%);
+        }
+}
+
+$dashed: dashed;
+@mixin my-border($color, $width) {
+        border: {
+                color: $color;
+                width: $width;
+                style: $dashed;
+        }
+}
+p { @include my-border (blue, lin); }
