@@ -6274,7 +6274,8 @@ th.hide-for-touch {
   .pricing{
   	display: inline-block;
   	position: relative;
-  	top: 200px;
-  	right: 240px;
+  	top: 170px;
+  	right: 260px;
   	color: blue;
+  	z-index: 1;
   }
