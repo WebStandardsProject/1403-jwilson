@@ -91,7 +91,7 @@ img {
   -moz-osx-font-smoothing: grayscale; }
 
 img {
-  max-height: 40%;
+  min-height: 40%;
   display: inline-block;
   vertical-align: middle;
   margin-left: 17%;
@@ -6235,10 +6235,16 @@ th.hide-for-touch {
   
   h1{
   	text-align: center;
+  	color: white;
+  	
+  }
+  
+  .res{
+  	margin-right: 20%;
   }
   
   #filter{
-  	margin-left: 43.5%;
+  	margin-left: 42.5%;
   }
   
   #checkout{
@@ -6247,14 +6253,21 @@ th.hide-for-touch {
   
   #bio{
   	float: right;
-  	margin-right: 30%;
-  	border: 1px solid black;
-  	
+  	margin-right: 20%;
+  	margin-top: 5%;
+  	text-align: center;
+  }
+  
+  #bio p{
+  	color: white;
   }
   
   #select{
   	float: left;
-  	clear: both;
+  	margin-left: -5%;
+  	max-width: 30%;
+  	margin-top: 5%;
+  	
   }
   
   .pricing-table{
@@ -6288,7 +6301,10 @@ th.hide-for-touch {
   
   #tot{
   	text-align: center;
-  	color: blue;
+  	color: white;
+  	border:3px solid #0660b0;
+  	border-radius: 2px;
+  	background-color: #0660b0;
   }
   
  a img{
@@ -6308,10 +6324,6 @@ th.hide-for-touch {
   
   .art{
   	background-image: url("../images/bg2.jpg");
-  }
-  
-  h1{
-  	color: white;
   }
   
   h2{
@@ -6355,4 +6367,22 @@ th.hide-for-touch {
   fieldset{
   	border-color: #0660b0;
   	border-width: 3px;
+  }
+  
+  .pricing-table{
+  	width: 40%;
+  	float: right;
+  	margin-top: -22%;
+  	margin-right: 13%;
+  }
+  
+  #user{
+  	float: left;
+  }
+  
+  #shop{
+  	float: right;
+  	margin-top: 10%;
+  	margin-right: 30%;
+  	color: white;
   }
