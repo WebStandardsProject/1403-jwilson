@@ -6392,6 +6392,10 @@ th.hide-for-touch {
   	color: black;
   }
   
+  .alert.button.expand{
+  	padding-top: 3%;
+  }
+  
   /* Media Queries */
   
  /* Medium screen size */
