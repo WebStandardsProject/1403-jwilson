@@ -6450,6 +6450,13 @@ th.hide-for-touch {
   	margin-top: 4%;
   	
   }
+  
+  #shop{
+  	float: right;
+  	margin-top: 10%;
+  	margin-right: 13%;
+  	color: white;
+  }
 	
 
 }
@@ -6511,6 +6518,17 @@ th.hide-for-touch {
   	margin-right: 9.9%;
   	margin-top: 7%;
   	
+  }
+  
+  #shop{
+  	float: right;
+  	margin-top: 10%;
+  	margin-right: 13%;
+  	color: white;
+  }
+  
+  #checkout{
+  	margin-left: 30%;
   }
 
 }
