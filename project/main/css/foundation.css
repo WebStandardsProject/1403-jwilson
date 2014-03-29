@@ -91,10 +91,10 @@ img {
   -moz-osx-font-smoothing: grayscale; }
 
 img {
-  min-height: 40%;
+  max-height: 50%;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 17%;
+  margin-left: 19%;
   margin-bottom: 5%;
   margin-top: 3%;
   }
@@ -6280,7 +6280,7 @@ th.hide-for-touch {
   }
   
   #welbut{
-  	margin-left: 41%;
+  	margin-left: 42%;
   }
   
   .alert.button.expand{
@@ -6291,7 +6291,7 @@ th.hide-for-touch {
   	display: inline-block;
   	position: relative;
   	top: 170px;
-  	right: 260px;
+  	right: 170px;
   	color: white;
   	border:3px solid #0660b0;
   	border-radius: 2px;
@@ -6390,3 +6390,80 @@ th.hide-for-touch {
   .filt{
   	color: black;
   }
+  
+  /* Media Queries */
+  
+ /* Medium screen size */
+  
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+	#welbut{
+  	margin-left: 37%;
+  }
+  
+ 	 a img{
+  	width: 29%;
+  }
+  
+  
+  #logo{
+  	max-width: 80%;
+  	max-height: 80%;
+  }
+  
+  #filter{
+  	margin-left: 42%;
+  }
+  
+  .pricing{
+  	display: inline-block;
+  	position: relative;
+  	top: -10px;
+  	right: -30px;
+  	color: white;
+  	border:3px solid #0660b0;
+  	border-radius: 2px;
+  	background-color: #0660b0;
+  	z-index: 1;
+  }
+	
+
+}
+ /* small screen size */
+@media only screen and (max-width: 40em) { 
+
+	#welbut{
+  	margin-left: 23%;
+  }
+  
+   #logo{
+  	max-width: 80%;
+  	max-height: 80%;
+  }
+  
+  
+  .res{
+  	margin-right: -5%;
+  }
+  
+  #filter{
+  	margin-left: 30%;
+  }
+  
+  a img{
+  	width: 29%;
+
+  }
+  .pricing{
+  	display: inline-block;
+  	position: relative;
+  	top: 10px;
+  	right: -30px;
+  	color: white;
+  	border:3px solid #0660b0;
+  	border-radius: 2px;
+  	background-color: #0660b0;
+  	z-index: 1;
+  }
+
+}
