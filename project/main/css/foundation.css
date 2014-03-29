@@ -6461,6 +6461,10 @@ th.hide-for-touch {
   	margin-right: 13%;
   	color: white;
   }
+  
+  .alert.button.expand{
+  	padding-top: 5%;
+  }
 	
 
 }
@@ -6533,6 +6537,10 @@ th.hide-for-touch {
   
   #checkout{
   	margin-left: 30%;
+  }
+  
+  .alert.button.expand{
+  	padding-top: 10%;
   }
 
 }
